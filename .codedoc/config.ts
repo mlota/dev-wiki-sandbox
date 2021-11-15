@@ -7,7 +7,7 @@ import { theme } from './theme';
 export const config = /*#__PURE__*/configuration({
   theme,                                  // --> add the theme. modify `./theme.ts` for changing the theme.
   dest: {
-    namespace: '/dev-wiki',                // --> your github pages namespace. remove if you are using a custom domain.
+    namespace: '/dev-wiki-sandbox',                // --> your github pages namespace. remove if you are using a custom domain.
     html: 'dist',
     assets: 'dist'
   },
@@ -19,7 +19,7 @@ export const config = /*#__PURE__*/configuration({
   misc: {
     github: {
       user: 'mlota',                      // --> your github username (where your repo is hosted)
-      repo: 'dev-wiki',                   // --> your github repo name
+      repo: 'dev-wiki-sandbox',                   // --> your github repo name
     }
   },
 });
